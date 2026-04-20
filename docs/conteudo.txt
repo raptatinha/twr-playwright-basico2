@@ -36,3 +36,30 @@ trace viewer
 Playwright extension
 20:45
 Q&A - 15min
+
+
+1. playwright.config file
+trace, video, screenshots automáticos
+2. Organização e arquitetura
+Page Object Model (simples)
+Introdução a Fixtures
+Separação de responsabilidades
+3. Autenticação
+storageState
+Login uma vez para todos os testes
+4. Testes mais estáveis
+Esperas corretas
+network idle
+interceptação de requests (mock básico)
+5. Múltiplos contextos e cenários
+Multi-user
+Multi-tab / popup
+6. Mobile e emulação
+device presets
+7. CI com GitHub Actions
+Exemplo pronto
+Execução em pipeline
+8. Boas práticas reais
+Estrutura de pastas
+Paralelismo
+Evitar flaky tests

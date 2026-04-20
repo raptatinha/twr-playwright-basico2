@@ -388,3 +388,98 @@ ul.bullets.orange li::before { color: var(--muted); }
 }
 
 .step-content strong { color: var(--text); }
+
+/* ══════════════════════════════════════════════
+   LIGHT MODE — slides overrides
+   ══════════════════════════════════════════════ */
+
+html[data-theme="light"] .nav {
+  background: rgba(250, 250, 246, 0.94);
+  border-color: var(--border);
+}
+
+html[data-theme="light"] .nav .progress-bar {
+  background: rgba(200, 191, 184, 0.5);
+}
+
+html[data-theme="light"] .nav .theme-toggle-btn {
+  border-color: var(--border);
+}
+
+html[data-theme="light"] .slide-num {
+  color: rgba(26, 10, 46, 0.2);
+}
+
+html[data-theme="light"] .bg-grid {
+  background-image:
+    linear-gradient(rgba(45, 95, 120, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(45, 95, 120, 0.06) 1px, transparent 1px);
+}
+
+html[data-theme="light"] .bg-glow-green {
+  background: radial-gradient(circle, rgba(45, 95, 120, 0.08) 0%, transparent 70%);
+}
+
+html[data-theme="light"] .bg-glow-blue {
+  background: radial-gradient(circle, rgba(90, 60, 79, 0.06) 0%, transparent 70%);
+}
+
+html[data-theme="light"] .codeblock {
+  background: #0d0b1a;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+html[data-theme="light"] .codeblock pre {
+  color: #e0dcd4;
+}
+
+html[data-theme="light"] .tl-row:hover {
+  background: rgba(200, 191, 184, 0.15);
+}
+
+html[data-theme="light"] .tl-row.highlight {
+  background: rgba(45, 95, 120, 0.06);
+  border-color: rgba(45, 95, 120, 0.2);
+}
+
+html[data-theme="light"] .tl-row.highlight-blue {
+  background: rgba(90, 60, 79, 0.06);
+  border-color: rgba(90, 60, 79, 0.2);
+}
+
+html[data-theme="light"] .tag-green {
+  border-color: rgba(45, 95, 120, 0.25);
+}
+
+html[data-theme="light"] .tag-blue,
+html[data-theme="light"] .tag-purple {
+  border-color: rgba(90, 60, 79, 0.25);
+}
+
+html[data-theme="light"] .tag-orange {
+  border-color: rgba(107, 86, 81, 0.2);
+}
+
+html[data-theme="light"] .card.green-border {
+  border-color: rgba(45, 95, 120, 0.25);
+}
+
+html[data-theme="light"] .card.blue-border {
+  border-color: rgba(90, 60, 79, 0.2);
+}
+
+html[data-theme="light"] .card.red-border {
+  border-color: rgba(90, 60, 79, 0.25);
+}
+
+html[data-theme="light"] .step-num {
+  border-color: rgba(45, 95, 120, 0.2);
+}
+
+html[data-theme="light"] .warn {
+  background: rgba(90, 60, 79, 0.06);
+}
+
+html[data-theme="light"] .tip {
+  background: rgba(107, 86, 81, 0.06);
+}

@@ -51,11 +51,11 @@ code, .mono {
 }
 
 /* ── SYNTAX HIGHLIGHT TOKENS ── */
-.kw  { color: #c78fa0; }
-.fn  { color: #7ab3c8; }
-.str { color: #a48d84; }
-.cm  { color: #483638; }
-.num { color: #e4dfd9; }
+.kw  { color: #d4a0b3; }
+.fn  { color: #7ec8e3; }
+.str { color: #d4b59e; }
+.cm  { color: #7a6b68; }
+.num { color: #e8c87a; }
 .op  { color: #79c0ff; }
 
 /* ── HIGHLIGHT UTILITIES ── */
@@ -113,13 +113,13 @@ html[data-theme="light"] {
 html[data-theme="light"] .logo-dark  { display: inline; }
 html[data-theme="light"] .logo-light { display: none; }
 
-/* Syntax highlight adaptado para light mode */
-html[data-theme="light"] .kw  { color: #8b3a5a; }
-html[data-theme="light"] .fn  { color: #1e5a78; }
-html[data-theme="light"] .str { color: #6b5651; }
-html[data-theme="light"] .cm  { color: #a48d84; }
-html[data-theme="light"] .num { color: #483638; }
-html[data-theme="light"] .op  { color: #2d5f78; }
+/* Syntax highlight adaptado para light mode (code blocks keep dark bg) */
+html[data-theme="light"] .kw  { color: #d4a0b3; }
+html[data-theme="light"] .fn  { color: #7ec8e3; }
+html[data-theme="light"] .str { color: #d4b59e; }
+html[data-theme="light"] .cm  { color: #7a6b68; }
+html[data-theme="light"] .num { color: #e8c87a; }
+html[data-theme="light"] .op  { color: #79c0ff; }
 
 /* ── BOTÃO DE TOGGLE ── */
 .theme-toggle-btn {

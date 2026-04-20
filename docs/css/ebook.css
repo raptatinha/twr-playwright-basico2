@@ -347,8 +347,8 @@
 
 /* ── CODE BLOCK ── */
 .code-block {
-  background: #010109;
-  border: 1px solid rgba(255,255,255,0.08);
+  background: #0d0b1a;
+  border: 1px solid rgba(255,255,255,0.10);
   border-radius: 8px;
   padding: 16px 20px;
   margin-top: 12px;
@@ -368,9 +368,19 @@
 .code-block pre {
   font-family: 'JetBrains Mono', monospace;
   font-size: 13px;
-  color: var(--text);
+  color: #e0dcd4;
   line-height: 1.8;
   white-space: pre;
+}
+
+/* Code blocks always use dark background, even in light mode */
+html[data-theme="light"] .code-block {
+  background: #0d0b1a;
+  border-color: rgba(0,0,0,0.15);
+}
+
+html[data-theme="light"] .code-block pre {
+  color: #e0dcd4;
 }
 
 /* ── HORIZONTAL DIVIDER ── */
